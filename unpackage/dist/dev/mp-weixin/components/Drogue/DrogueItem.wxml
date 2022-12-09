@@ -1,0 +1,1 @@
+<view class="{{['drogue-item',iconType]}}"><icon></icon><view><slot></slot></view></view>

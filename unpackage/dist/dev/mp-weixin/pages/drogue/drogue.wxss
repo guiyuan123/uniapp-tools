@@ -1,0 +1,23 @@
+
+.container {
+	height: 3000px;
+	width: 100%;
+	background-color: #9e9e9e;
+}
+.drogue {
+	position: fixed;
+	right: 0;
+	bottom: 50px;
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.close {
+	-webkit-transform: translateX(650%);
+	transform: translateX(65%);
+}
+

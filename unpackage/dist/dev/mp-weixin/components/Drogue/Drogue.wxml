@@ -1,0 +1,1 @@
+<view><slot name="container"></slot><view class="{{['drogue',(isClose)?'close':'']}}"><slot></slot></view></view>

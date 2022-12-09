@@ -1,0 +1,15 @@
+
+.drogue {
+	position: fixed;
+	right: 0;
+	bottom: 50px;
+	padding: 20px 10px;
+	transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.close {
+	-webkit-transform: translateX(650%);
+	transform: translateX(65%);
+}
+
